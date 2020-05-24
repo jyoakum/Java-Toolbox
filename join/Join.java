@@ -7,7 +7,7 @@ public class Join {
       try {
         seconds = Integer.valueOf(args[0]);
       } catch(NumberFormatException nfe) {
-        System.err.print("Using default value of 1. ");
+        System.err.print("Using default value of 1 for seconds. ");
         System.err.println("Expected an integer as an argument. Got: " + args[0]);
       }
     }
